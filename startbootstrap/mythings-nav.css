@@ -1,22 +1,21 @@
-/* Style the links inside the pill navigation menu */
-.pill-nav a {
+.mythings-nav a {
     display: inline-block;
     color: black;
     text-align: center;
     padding: 50px;
     text-decoration: none;
-    font-size: 17px;
-    border-radius: 5px;
+    font-size: 13px;
+    border-radius: 30px;
   }
   
   /* Change the color of links on mouse-over */
-  .pill-nav a:hover {
+  .mythings-navv a:hover {
     background-color: #ddd;
     color: black;
   }
   
   /* Add a color to the active/current link */
-  .pill-nav a.active {
+  .mythings-nav a.active {
     background-color: dodgerblue;
     color: white;
   }

@@ -7,9 +7,9 @@ body {
 .search-box {
     position: absolute;
     top: 50%;
-    left: 12%;
+    left: 17%;
     transform: translate(-50%, -50%);
-    background: #2f3640;
+    background: #f5f6f7;
     height: 40px;
     border-radius: 40px;
     padding: 5px;
@@ -30,12 +30,12 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: #2f3640;
+    background: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.4s;
-    color: white;
+    color: rgb(17, 4, 4);
     cursor: pointer;
 }
 
