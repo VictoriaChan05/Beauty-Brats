@@ -20,8 +20,6 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Reference for add implementation-->
-    <script src="add.js" defer></script>
 </head>
 
 <body>
@@ -74,9 +72,19 @@
      <!-- My Things navigation  for products-->
      <link href="mythings-nav.css" rel="stylesheet">
 
+    <!-- Reference for add implementation-->
+    <script src="add.js" defer></script>
+
      <div class="mythings-nav">
-        <a href="#home">Add</a>
-        <a href="#">Delete</a>
-        <a href="#">Sort By</a>
-        <a href="#">Favorites</a>
+         <form>
+             <div class="formBox">
+                 <input type="text" id="name" placeholder="Product Name"/>
+             </div>
+                 <a href="#" id="btn">Add</a>
+                 <a href="#" id="deleteBtn">Delete</a>
+        <a href="#">Sort Alphabetically</a>
+         <a href="#" id="favBtn">Favorites</a>
       </div>
+    </form>
+</body>
+</html>
