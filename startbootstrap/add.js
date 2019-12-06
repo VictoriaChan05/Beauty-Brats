@@ -37,3 +37,15 @@ const removeItem = (ev)=>{
 document.addEventListener('DOMContentLoaded', ()=>{
     document.getElementById('deleteBtn').addEventListener('click',removeItem);
 });
+
+// Sorts the array alphabetically
+const sortItem = (ev)=>{
+    ev.preventDefault();
+    myItems.sort();
+    document.querySelector('form').reset();
+    localStorage.setItem('myItemsList', JSON.stringify(myItems));
+}
+
+document.addEventListener('DOMContentLoaded', ()=>{
+    document.getElementById('sortBtn').addEventListener('click',sortItem);
+});
