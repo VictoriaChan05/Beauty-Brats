@@ -49,3 +49,4 @@ const sortItem = (ev)=>{
 document.addEventListener('DOMContentLoaded', ()=>{
     document.getElementById('sortBtn').addEventListener('click',sortItem);
 });
+

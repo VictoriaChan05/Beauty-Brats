@@ -79,19 +79,27 @@
              <div class="formBox">
                  <input type="text" id="name" placeholder="Product Name"/>
              </div>
-             <a href="#" id="btn" onClick="window.location.reload();">Add</a>
-             <a href="#" id="deleteBtn" onClick="window.location.reload();">Delete</a>
-             <a href="#" id="sortBtn" onClick="window.location.reload();">Sort Alphabetically</a>
+             <div style="text-align: center;">
+                 <a href="#" id="btn" onClick="window.location.reload();">Add</a>
+                 <a href="#" id="deleteBtn" onClick="window.location.reload();">Delete</a>
+                 <a href="#" id="sortBtn" onClick="window.location.reload();">Sort Alphabetically</a>
+             </div>
          </form>
-         <p>Favorites</p>
+         <h2>Favorites</h2>
      </div>
     <!-- Displays Favorites -->
-    <script>
-        const data = JSON.parse(localStorage.getItem('myItemsList'));
-        for (let i=0;i<data.length;i++)
-        {
-            document.write(data[i] + "<br >");
-        }
-    </script>
+    <p>
+        <div style="text-align: center;">
+            <script>
+                const data = JSON.parse(localStorage.getItem('myItemsList'));
+                for (let i=0;i<data.length;i++)
+                {
+                    document.write(data[i] + "<br>");
+                }
+            </script>
+        </div>
+    </p>
+
+
 </body>
 </html>

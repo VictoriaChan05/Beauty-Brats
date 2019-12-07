@@ -5,6 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/startbootstrap/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/startbootstrap/add.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/startbootstrap/myThings.html" beforeDir="false" afterPath="$PROJECT_DIR$/startbootstrap/myThings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap/mythings-nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/startbootstrap/mythings-nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap/search-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/startbootstrap/search-style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,8 @@
       <workItem from="1574903906320" duration="20000" />
       <workItem from="1574903970217" duration="412000" />
       <workItem from="1575531655309" duration="1903000" />
-      <workItem from="1575581792247" duration="10774000" />
+      <workItem from="1575581792247" duration="11695000" />
+      <workItem from="1575675373165" duration="4352000" />
     </task>
     <servers />
   </component>

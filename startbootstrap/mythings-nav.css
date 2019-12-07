@@ -2,11 +2,11 @@
     display: inline-block;
     color: black;
     text-align: center;
-    padding: 50px;
+    padding: 50px 20px 40px;
     text-decoration: none;
-    font-size: 13px;
-    border-radius: 30px;
-  }
+    font-size: 14px;
+    border-radius: 15px;
+}
   
   /* Change the color of links on mouse-over */
   .mythings-navv a:hover {
@@ -19,3 +19,17 @@
     background-color: dodgerblue;
     color: white;
   }
+
+  /* Centers formbox */
+  .formBox {
+      position: absolute;
+      left: 44%;
+  }
+
+  h2 {
+      text-align: center;
+  }
+
+
+
+
